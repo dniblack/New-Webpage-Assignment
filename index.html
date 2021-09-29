@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.scss">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <title>Canyon Hikers</title>
+</head>
+<body>
+    <!-- Navbar-->
+    <div class="nav-spacer">
+    </div>
+
+    <nav class="navbar navbar-dark">
+        <a class="navbar-brand pl-3 ml3" href="#">
+            <img src="Images/Logos/10020.jpg" alt="Canyon Hikers logo of the Grand Canyon" width="60" height="60" class="rounded-circle" alt="">
+            <h3 class="ml3">Canyon Hikers</h3>
+          </a>
+        <button onclick="snd.play()" class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-dark bg-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+          </ul>
+          <form class="form-inline justify-content-center mx-auto">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </nav>
+
+    <!-- TOP ROW -->
+
+    <div class="top-row">
+        <div class="container-fluid">
+            <a href="#" onclick="snd.play()"><img class="top-row-img" src="Images/gert-boers-qQC8tyG_JVA-unsplash.jpg" alt=""></a>    
+            <div class="top-img-overlay">
+                    <h1>A Grand New Adventure</h1>
+                    <p>Embark on a new adventure through the Grand Canyon! <br>
+                        With a variety of hiking trails, events, and tours 
+                        the possibilities for both veteran hikers and newcomers are endless!</p>
+                </div>
+        </div>
+    </div>
+
+    <!-- MIDDLE ROW -->
+
+    <div class="article-body">
+        <div class="main-article d-flex flex-row">
+        <div class="main-article-text">
+            <h2>Introducing Your<br> Next Adventure</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Pharetra convallis posuere morbi leo urna molestie at elementum eu. In hendrerit gravida rutrum quisque non. 
+                        Ultrices dui sapien eget mi proin. Amet dictum sit amet justo donec.</p>
+                        <a href="#" onclick="snd.play()"><button onclick="document.getElementById('sound1').play();">Read More</button></a>
+            </div>
+            <a href="#"><img class="article-img" src="Images/clay-banks-oSbWA1GCEWE-unsplash.jpg" alt="">
+            </a>
+            </div>
+        <div class="separator-text">
+            <h1>Recent Articles</h1>
+            <hr>
+        </div>
+    
+        <div class="sub-articles">
+            <div class="sub-article-1">
+                <a href="#" onclick="snd.play()">
+                <img class="sub-image" src="Images/rebekah-dummer-_f_7631XQeE-unsplash.jpg" alt="">
+                </a>
+                <p>New Upcoming Events</p>
+            </div>
+            <div class="sub-article-2">
+                <a href="#" onclick="snd.play()">
+                <img class="sub-image" src="Images/david-lusvardi-efnfSGprSgA-unsplash.jpg" alt="">
+                </a>
+                <p>Safety Updates & Information</p>
+            </div>
+        </div>
+    </div>
+    <!-- BOTTOM ROW -->
+
+    <div class="bottom-row">
+        <img class="top-row-img" src="Images/ellis-dieperink-DZQV8a063dM-unsplash.jpg" alt="">
+        <div class="bottom-img-overlay">
+            <h1>Explore More, See More, Do More</h1>
+            <p>With so many options and areas to traverse, let us help and guide your next trip<br>
+                to ensure you get the most out of your visit to the Grand Canyon.</p>
+                <a href="#" onclick="snd.play()"><button onclick="document.getElementById('sound1').play();">Read More</button></a>
+        </div>
+    </div>
+
+    <div class="bottom-img-break">
+        <div class="separator">
+        </div>
+        <img src="Images/ellis-dieperink-DZQV8a063dM-unsplash.jpg" alt="Overlooking Grand Canyon">
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer-content">
+            <h1>Canyon Hikers</h1>
+            <a href="#" onclick="snd.play()"><source src="Audio/Menu Selection Sound Effect.mp3" type="audio/mp3">
+            <img class="rounded-circle float-left" id="logo" src="Images/Logos/10020.jpg" alt="Canyon Hikers logo of the Grand Canyon">
+            </a>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>copyright &copy;2021 Canyon Hikers</p>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
