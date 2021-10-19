@@ -25,6 +25,14 @@ nav {
     height: 52px;
 }
 
+a, a:focus{
+    border: none;
+    outline:none;
+  } 
+  a:link{
+    text-decoration: none;
+  }
+
 button, li, a {
     font-weight: 400;
     font-size: 36px;
@@ -100,8 +108,12 @@ hr {
 
 
 
-.navbar li, a {
+.navbar li{
     background-color: #753220;
+    color: #D8B590;
+}
+
+.navbar a {
     color: #D8B590;
 }
 
